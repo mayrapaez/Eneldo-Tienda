@@ -1,0 +1,57 @@
+a {
+  text-decoration: none;
+}
+
+a .cardItem {
+  color: #532e1c;
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  text-decoration: none;
+  padding-bottom: 0px;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+}
+
+a .cardItem h5 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+a .cardItem p {
+  font-size: 1.2rem;
+}
+
+a .cardItem .seeDetail {
+  background-color: #bf9b77;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  border: 1px solid #bf9b77;
+  border-radius: 0.3rem;
+  width: 10rem;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+}
+
+a .cardItem .seeDetail:hover {
+  background-color: #e34724;
+  color: #ffffff;
+  border-color: #e34724;
+}
+
+a .cardItem:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  a .cardItem h5 {
+    font-size: 1.15rem;
+  }
+}
+/*# sourceMappingURL=item.css.map */

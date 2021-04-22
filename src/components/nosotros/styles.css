@@ -1,0 +1,20 @@
+
+.imagen {
+    height: 450px;
+    width: 450px;
+    margin: 55px 25px;
+    padding-left: 8px;
+}
+#textNosotros {
+    padding-top: 108px;
+    color: #110e0d;
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: 25px;   
+}
+
+.nosotrosFraseImg {
+    height: 450px;
+    width: 450px;
+    padding-right: 11px;
+    padding-top: 120px;
+}

@@ -1,0 +1,23 @@
+$font: 'Quicksand', sans-serif;
+
+$color-blue: #0091a1;
+$color-brown: #bf9b77;
+$color-dark-brown: #532e1c;
+$color-red: #e34724;
+$color-white: #ffffff;
+
+#heroNosotros {
+    background-image: url("http://localhost:3000/images/heroNosotros.jpg");
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#textNosotros {
+    color: $color-dark-brown;
+    font-family: $font;
+    font-size: 1.1rem;
+    line-height: 3rem;
+}

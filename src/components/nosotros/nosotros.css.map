@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAQA,AAAA,aAAa,CAAC;EACV,gBAAgB,EAAE,oDAAoD;EACtE,MAAM,EAAE,KAAK;EACb,eAAe,EAAE,KAAK;EACtB,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,MAAM;CAC1B;;AAED,AAAA,aAAa,CAAC;EACV,KAAK,EAdU,OAAO;EAetB,WAAW,EAnBR,WAAW,EAAE,UAAU;EAoB1B,SAAS,EAAE,MAAM;EACjB,WAAW,EAAE,IAAI;CACpB",
+    "sources": [
+        "nosotros.scss"
+    ],
+    "names": [],
+    "file": "nosotros.css"
+}

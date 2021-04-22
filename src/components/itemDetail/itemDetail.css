@@ -1,0 +1,80 @@
+.cardContainer {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.cardContainer .card {
+  border: none;
+}
+
+.cardContainer .cardItemDetail {
+  color: #532e1c;
+}
+
+.cardContainer .cardItemDetail img {
+  width: 100%;
+  height: 100%;
+}
+
+.cardContainer .cardItemDetail .card-body {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Quicksand", sans-serif;
+  text-align: left;
+  padding: 0px;
+}
+
+.cardContainer .cardItemDetail .card-body h5 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.cardContainer .cardItemDetail .card-body p {
+  font-size: 1rem;
+}
+
+.cardContainer .cardItemDetail .card-body .itemPrice {
+  font-weight: bold;
+}
+
+.cardContainer .cardItemDetail a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+}
+
+.cardContainer .cardItemDetail a .goToCart {
+  background-color: #bf9b77;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  border: 1px solid #bf9b77;
+  border-radius: 0.3rem;
+  width: 8.5rem;
+  margin: 0px;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+}
+
+.cardContainer .cardItemDetail a .goToCart:hover {
+  background-color: #e34724;
+  color: #ffffff;
+  border-color: #e34724;
+}
+/*# sourceMappingURL=itemDetail.css.map */

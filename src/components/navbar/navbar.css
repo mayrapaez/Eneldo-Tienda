@@ -1,0 +1,193 @@
+.navbar {
+    padding-right: 55px;
+    margin-bottom: 5px;
+    background-color: #f35b357e;
+    font-family: 'Lucida Sans', sans-serif;
+  }
+  .navbar a {
+    color: rgb(3, 3, 3);
+    padding-right: 125px;
+    font-size: 25px;
+  }
+  
+  .btn-outline-info {
+    color: #ec0f22af;
+    border-color: #ec0f22af;
+  }
+
+ .btn-navbarIcon {
+
+  }
+  /* $font: 'Quicksand', sans-serif;
+
+$color-blue: #0091a1;
+$color-brown: #bf9b77;
+$color-dark-brown: #532e1c;
+$color-red: #e34724;
+$color-white: #ffffff;
+
+.sectionBrown {
+    background-color: $color-brown;
+    font-family: $font;
+    .navbarLogo {
+        width: 182px;
+        height: 80px;
+    }
+    .navbar-toggler {
+        #burgerMenuIcon {
+            color: $color-white;
+            font-size: 25px;
+            position: absolute;
+            right: 1rem;
+            top: 2.7rem;
+        }
+    }
+    .navbar-collapse {
+        text-align: right;
+        justify-content: flex-end;
+        a {
+            color: $color-white;
+            font-weight: bold;
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+        a:hover {
+            color: $color-blue;
+        }
+        .activeSection {
+            color: $color-blue;
+        }
+    }
+    #iconsContainer {
+        display: flex;
+        justify-self: end;
+        align-items: center;
+        input {
+            border-radius: 0px;
+        }
+        #searchButton {
+            border: none;
+            padding: 0px;
+            #searchIcon {
+                color: $color-white;
+                font-size: 20px;
+            }
+            #searchIcon:hover {
+                color: $color-blue;
+            }
+        }
+        .navbarIcon {
+            color: $color-white;
+            font-size: 0.8rem;
+            .iconFontAwesone {
+                font-size: 20px;
+            }
+        }
+        .navbarIcon:hover {
+            color: $color-blue;
+            text-decoration: none;
+        }
+        .cartQuantity {
+            color: $color-white;
+            font-family: $font;
+            font-size: 0.7rem;
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 20px;
+            height: 20px;
+            background-color: $color-red;
+            border: 1px solid $color-red;
+            border-radius: 50%;
+            position: absolute;
+            right: 33px;
+            top: 37px;
+            padding: 0px;
+            margin: 0px;
+        }
+    }
+    .cartIcon {
+        position: absolute;
+        right: 4rem;
+        top: 2.3rem;
+        .navbarIcon {
+            color: $color-white;
+            font-size: 0.8rem;
+            .iconFontAwesone {
+                font-size: 20px;
+            }
+        }
+        .navbarIcon:hover {
+            color: $color-blue;
+            text-decoration: none;
+        }
+        .cartQuantity {
+            color: $color-white;
+            font-family: $font;
+            font-size: 0.7rem;
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 20px;
+            height: 20px;
+            background-color: $color-red;
+            border: 1px solid $color-red;
+            border-radius: 50%;
+            position: absolute;
+            right: -0.2rem;
+            top: 0.4rem;
+            padding: 0px;
+            margin: 0px;
+            }
+        }
+}
+
+//Media queries
+
+//Extra small
+@media screen and (max-width: 575px) {
+    .sectionBrown {
+        .navbarLogo {
+            width: 180px;
+            height: 79px;
+        }
+    }
+}
+
+//Medium
+@media screen and (min-width: 768px) and (max-width: 991px) {
+}
+
+//Large
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .sectionBrown {
+        .navbarIconSection {
+            display: grid !important;
+            grid-template-columns: 1fr 1fr 1fr;
+            text-align: center;
+            align-items: center;
+        }
+        #categoriesContainer {
+            display: grid;
+            justify-content: center;
+        }
+    }
+}
+
+//Extra large
+@media screen and (min-width: 1200px) {
+    .sectionBrown {
+        .navbarIconSection {
+            display: grid !important;
+            grid-template-columns: 1fr 1fr 1fr;
+            text-align: center;
+            align-items: center;
+        }
+        #categoriesContainer {
+            display: grid;
+            justify-content: center;
+        }
+    }
+} */

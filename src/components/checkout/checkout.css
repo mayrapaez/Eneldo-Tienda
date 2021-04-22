@@ -1,0 +1,111 @@
+.checkoutFormContainer {
+  min-height: 100vh;
+  color: #532e1c;
+  font-family: "Quicksand", sans-serif;
+}
+
+.checkoutFormContainer h5 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.checkoutFormContainer .checkoutButtonContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.checkoutFormContainer .checkoutButtonContainer .backButton {
+  color: #532e1c;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  border: 1px solid #532e1c;
+  border-radius: 0.3rem;
+  width: 10rem;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+}
+
+.checkoutFormContainer .checkoutButtonContainer .backButton:hover {
+  background-color: #532e1c;
+  color: #ffffff;
+}
+
+.checkoutFormContainer .checkoutButtonContainer .continueButton {
+  background-color: #bf9b77;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  border: 1px solid #bf9b77;
+  border-radius: 0.3rem;
+  width: 10rem;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+}
+
+.checkoutFormContainer .checkoutButtonContainer .continueButton:hover {
+  background-color: #e34724;
+  color: #ffffff;
+  border-color: #e34724;
+}
+
+.checkoutCongratsContainer {
+  color: #532e1c;
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  line-height: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 100vh;
+}
+
+.checkoutCongratsContainer h5 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.checkoutCongratsContainer #order {
+  font-weight: bold;
+}
+
+.checkoutCongratsContainer #email {
+  color: #0091a1;
+  text-decoration: underline;
+}
+
+.checkoutCongratsContainer #email:hover {
+  color: #e34724;
+}
+
+.checkoutCongratsContainer .goToProducts {
+  color: #e34724;
+  text-transform: uppercase;
+  font-weight: bold;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+}
+
+.checkoutCongratsContainer .goToProducts:hover {
+  color: #0091a1;
+  letter-spacing: 0.03rem;
+}
+/*# sourceMappingURL=checkout.css.map */
