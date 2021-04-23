@@ -1,4 +1,4 @@
-import './itemList.scss';
+import './itemList.css';
 import Item from '../item/item.jsx';
 
 const ItemList = ({ item }) => {
